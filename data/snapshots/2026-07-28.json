@@ -1,0 +1,1935 @@
+{
+  "dataset": "earlylore-catalog",
+  "snapshotDate": "2026-07-28",
+  "sourceRelease": "2026.07.28-01",
+  "note": "Observed 2026-07-28 and not re-verified since. Pricing is a model label, not a price.",
+  "license": "CC BY 4.0, https://creativecommons.org/licenses/by/4.0/ — attribute \"EarlyLore (earlylore.com)\"",
+  "categories": [
+    {
+      "slug": "assistants",
+      "name": "AI 助手",
+      "description": "对话、写作、分析与多模态任务。"
+    },
+    {
+      "slug": "research",
+      "name": "搜索与研究",
+      "description": "检索、资料理解、引用与知识整理。"
+    },
+    {
+      "slug": "developer",
+      "name": "编程与开发",
+      "description": "代码生成、原型构建与开发工作流。"
+    },
+    {
+      "slug": "design",
+      "name": "图像与设计",
+      "description": "图像、界面、演示文稿与视觉创作。"
+    },
+    {
+      "slug": "audio-video",
+      "name": "音频与视频",
+      "description": "语音、音乐、视频生成与编辑。"
+    },
+    {
+      "slug": "productivity",
+      "name": "效率与协作",
+      "description": "会议、文档、知识与日常工作流。"
+    },
+    {
+      "slug": "automation",
+      "name": "自动化",
+      "description": "连接服务、编排任务与运行智能体。"
+    }
+  ],
+  "products": [
+    {
+      "id": "earlylore:claude",
+      "slug": "claude",
+      "name": "Claude",
+      "maker": "Anthropic",
+      "summary": "适合长文本、代码与复杂推理的通用 AI 助手。",
+      "description": "Claude 覆盖对话、文档理解、写作和代码任务，并以 Projects、Artifacts 等能力承接持续工作。",
+      "websiteUrl": "https://claude.ai/",
+      "domain": "claude.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "assistants",
+        "research",
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://claude.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:cursor",
+      "slug": "cursor",
+      "name": "Cursor",
+      "maker": "Anysphere",
+      "summary": "把代码库理解和 Agent 工作流带进编辑器。",
+      "description": "Cursor 面向真实代码库提供编辑、问答和 Agent 能力，代表 AI 编程从补全走向完整开发工作流。",
+      "websiteUrl": "https://cursor.com/",
+      "domain": "cursor.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://cursor.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:perplexity",
+      "slug": "perplexity",
+      "name": "Perplexity",
+      "maker": "Perplexity AI",
+      "summary": "带引用的 AI 搜索与研究入口。",
+      "description": "Perplexity 将搜索、答案生成和来源引用组合在同一界面，适合快速理解主题并追踪公开依据。",
+      "websiteUrl": "https://www.perplexity.ai/",
+      "domain": "perplexity.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "research",
+        "assistants"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.perplexity.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:notebooklm",
+      "slug": "notebooklm",
+      "name": "NotebookLM",
+      "maker": "Google",
+      "summary": "围绕用户资料进行问答、总结与音频概览。",
+      "description": "NotebookLM 以用户提供的文档和网页为资料边界，适合研究、学习和基于来源的知识整理。",
+      "websiteUrl": "https://notebooklm.google.com/",
+      "domain": "notebooklm.google.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "research",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://notebooklm.google.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:lovable",
+      "slug": "lovable",
+      "name": "Lovable",
+      "maker": "Lovable",
+      "summary": "通过对话构建并迭代完整 Web 产品。",
+      "description": "Lovable 面向产品原型和 Web 应用生成，把需求描述、界面实现和在线迭代放进同一条工作流。",
+      "websiteUrl": "https://lovable.dev/",
+      "domain": "lovable.dev",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://lovable.dev/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:midjourney",
+      "slug": "midjourney",
+      "name": "Midjourney",
+      "maker": "Midjourney",
+      "summary": "强调风格与画面质量的 AI 图像生成产品。",
+      "description": "Midjourney 提供面向视觉创作的图像生成体验，长期保持鲜明的风格辨识度和创作者生态。",
+      "websiteUrl": "https://www.midjourney.com/",
+      "domain": "midjourney.com",
+      "pricing": "付费",
+      "categorySlugs": [
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.midjourney.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:elevenlabs",
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "maker": "ElevenLabs",
+      "summary": "面向语音生成、配音与音频工作流的平台。",
+      "description": "ElevenLabs 提供语音生成、配音和多语言音频能力，覆盖创作者工具与开发者 API 两种路径。",
+      "websiteUrl": "https://elevenlabs.io/",
+      "domain": "elevenlabs.io",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video",
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://elevenlabs.io/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:runway",
+      "slug": "runway",
+      "name": "Runway",
+      "maker": "Runway",
+      "summary": "为创作者提供生成式视频与编辑工作流。",
+      "description": "Runway 将视频生成、素材处理与编辑能力放在同一产品内，适合短片、概念视觉和商业内容制作。",
+      "websiteUrl": "https://runwayml.com/",
+      "domain": "runwayml.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video",
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://runwayml.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:gamma",
+      "slug": "gamma",
+      "name": "Gamma",
+      "maker": "Gamma",
+      "summary": "快速生成演示文稿、文档和网页。",
+      "description": "Gamma 把内容结构、视觉排版和分享交付组合起来，适合提案、说明文档和轻量网页。",
+      "websiteUrl": "https://gamma.app/",
+      "domain": "gamma.app",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design",
+        "productivity"
+      ],
+      "addedAt": "2026-07-27",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://gamma.app/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:granola",
+      "slug": "granola",
+      "name": "Granola",
+      "maker": "Granola",
+      "summary": "围绕个人笔记设计的 AI 会议记录工具。",
+      "description": "Granola 在用户笔记基础上补充会议内容，强调轻量记录和会后整理，而不是复杂会议工作台。",
+      "websiteUrl": "https://www.granola.ai/",
+      "domain": "granola.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "productivity",
+        "assistants"
+      ],
+      "addedAt": "2026-07-27",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.granola.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:v0",
+      "slug": "v0",
+      "name": "v0",
+      "maker": "Vercel",
+      "summary": "从提示词进入界面、代码和可部署应用。",
+      "description": "v0 面向 React 与 Web 产品构建，把界面生成、代码编辑和部署入口放进同一个产品体验。",
+      "websiteUrl": "https://v0.dev/",
+      "domain": "v0.dev",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "design"
+      ],
+      "addedAt": "2026-07-27",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://v0.dev/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:n8n",
+      "slug": "n8n",
+      "name": "n8n",
+      "maker": "n8n",
+      "summary": "可视化编排自动化、数据与 AI 工作流。",
+      "description": "n8n 通过节点和工作流连接服务、数据与模型，适合需要明确控制和可扩展执行路径的自动化场景。",
+      "websiteUrl": "https://n8n.io/",
+      "domain": "n8n.io",
+      "pricing": "免费试用",
+      "categorySlugs": [
+        "automation",
+        "developer"
+      ],
+      "addedAt": "2026-07-27",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://n8n.io/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:chatgpt",
+      "slug": "chatgpt",
+      "name": "ChatGPT",
+      "maker": "OpenAI",
+      "summary": "覆盖对话、写作、分析、图像与实时语音的通用助手。",
+      "description": "ChatGPT 将多模态交互、文件分析、联网研究与自定义工作流放在统一入口，是通用 AI 产品的重要基线。",
+      "websiteUrl": "https://chatgpt.com/",
+      "domain": "chatgpt.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "assistants",
+        "research",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://chatgpt.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:gemini",
+      "slug": "gemini",
+      "name": "Gemini",
+      "maker": "Google",
+      "summary": "连接 Google 服务与多模态模型的个人 AI 助手。",
+      "description": "Gemini 提供文本、图像、语音和文件交互，并与 Google 的搜索、Workspace 与设备生态连接。",
+      "websiteUrl": "https://gemini.google.com/",
+      "domain": "gemini.google.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "assistants",
+        "research",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://gemini.google.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:microsoft-copilot",
+      "slug": "microsoft-copilot",
+      "name": "Microsoft Copilot",
+      "maker": "Microsoft",
+      "summary": "面向日常问答、创作和 Microsoft 生态的 AI 助手。",
+      "description": "Microsoft Copilot 提供网页端对话、图像生成和研究能力，并延伸到 Windows 与 Microsoft 365 产品。",
+      "websiteUrl": "https://copilot.microsoft.com/",
+      "domain": "copilot.microsoft.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "assistants",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://copilot.microsoft.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:le-chat",
+      "slug": "le-chat",
+      "name": "Le Chat",
+      "maker": "Mistral AI",
+      "summary": "由 Mistral AI 提供的多语言通用助手。",
+      "description": "Le Chat 提供快速对话、网页检索、文档与图像处理，是 Mistral 模型面向普通用户的产品入口。",
+      "websiteUrl": "https://chat.mistral.ai/",
+      "domain": "chat.mistral.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "assistants",
+        "research"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://chat.mistral.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:poe",
+      "slug": "poe",
+      "name": "Poe",
+      "maker": "Quora",
+      "summary": "在一个界面中使用并创建不同模型与 Bot。",
+      "description": "Poe 聚合多个模型提供商，并允许创作者配置公开 Bot，适合模型比较与特定角色工作流。",
+      "websiteUrl": "https://poe.com/",
+      "domain": "poe.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "assistants"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://poe.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:you-com",
+      "slug": "you-com",
+      "name": "You.com",
+      "maker": "You.com",
+      "summary": "结合网页搜索、研究与定制 Agent 的 AI 工作台。",
+      "description": "You.com 将带来源搜索、深度研究和自定义 Agent 组合起来，面向知识工作与企业查询场景。",
+      "websiteUrl": "https://you.com/",
+      "domain": "you.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "research",
+        "assistants"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://you.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:genspark",
+      "slug": "genspark",
+      "name": "Genspark",
+      "maker": "MainFunc",
+      "summary": "把检索结果组织成可继续执行任务的 AI 页面。",
+      "description": "Genspark 围绕研究页面和任务型 Agent 组织公开信息，强调从查找答案继续到计划和执行。",
+      "websiteUrl": "https://www.genspark.ai/",
+      "domain": "genspark.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "research",
+        "assistants",
+        "automation"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.genspark.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:manus",
+      "slug": "manus",
+      "name": "Manus",
+      "maker": "Manus",
+      "summary": "面向研究、制作与执行任务的通用 AI Agent。",
+      "description": "Manus 以异步任务执行为核心，能够组合浏览、分析和内容生产步骤，交付可继续使用的结果。",
+      "websiteUrl": "https://manus.im/",
+      "domain": "manus.im",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "assistants",
+        "automation",
+        "research"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://manus.im/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:grok",
+      "slug": "grok",
+      "name": "Grok",
+      "maker": "xAI",
+      "summary": "结合实时信息、推理与多模态能力的 AI 助手。",
+      "description": "Grok 提供网页端对话、搜索和图像能力，并以实时公开信息作为产品体验的重要组成。",
+      "websiteUrl": "https://grok.com/",
+      "domain": "grok.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "assistants",
+        "research"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://grok.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:pi",
+      "slug": "pi",
+      "name": "Pi",
+      "maker": "Inflection AI",
+      "summary": "强调自然交流与陪伴感的个人 AI。",
+      "description": "Pi 把语气、连续对话和语音体验放在首位，代表通用助手之外更偏个人陪伴的产品方向。",
+      "websiteUrl": "https://pi.ai/talk",
+      "domain": "pi.ai",
+      "pricing": "免费",
+      "categorySlugs": [
+        "assistants"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://pi.ai/talk",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:elicit",
+      "slug": "elicit",
+      "name": "Elicit",
+      "maker": "Elicit",
+      "summary": "面向文献发现、筛选与证据整理的研究助手。",
+      "description": "Elicit 围绕学术论文检索、系统综述和证据表格设计工作流，适合需要可追溯资料的研究任务。",
+      "websiteUrl": "https://elicit.com/",
+      "domain": "elicit.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "research",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://elicit.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:consensus",
+      "slug": "consensus",
+      "name": "Consensus",
+      "maker": "Consensus",
+      "summary": "直接从研究论文中检索并总结证据。",
+      "description": "Consensus 以同行评审论文为检索范围，将问题、研究结论和引用组织成面向普通用户的答案。",
+      "websiteUrl": "https://consensus.app/",
+      "domain": "consensus.app",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "research"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://consensus.app/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:scite",
+      "slug": "scite",
+      "name": "scite",
+      "maker": "scite",
+      "summary": "通过智能引用理解论文如何被后续研究支持或质疑。",
+      "description": "scite 把引用语境和论文检索结合起来，帮助研究者判断一项工作被支持、提及或反驳的方式。",
+      "websiteUrl": "https://scite.ai/",
+      "domain": "scite.ai",
+      "pricing": "免费试用",
+      "categorySlugs": [
+        "research"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://scite.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:scispace",
+      "slug": "scispace",
+      "name": "SciSpace",
+      "maker": "SciSpace",
+      "summary": "阅读、解释和检索学术论文的 AI 研究平台。",
+      "description": "SciSpace 提供论文搜索、PDF 对话和文献综述工具，降低理解专业研究材料的门槛。",
+      "websiteUrl": "https://scispace.com/",
+      "domain": "scispace.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "research",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://scispace.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:afforai",
+      "slug": "afforai",
+      "name": "Afforai",
+      "maker": "Afforai",
+      "summary": "管理资料库、引用和研究写作的 AI 工作区。",
+      "description": "Afforai 将文件资料库、带引用问答和文献管理组合起来，适合个人与小团队持续研究。",
+      "websiteUrl": "https://afforai.com/",
+      "domain": "afforai.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "research",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://afforai.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:notion-ai",
+      "slug": "notion-ai",
+      "name": "Notion AI",
+      "maker": "Notion",
+      "summary": "在文档、知识库和协作空间中直接使用 AI。",
+      "description": "Notion AI 将写作、问答、会议记录和企业搜索嵌入既有工作区，减少内容在多个工具间搬运。",
+      "websiteUrl": "https://www.notion.com/product/ai",
+      "domain": "notion.com",
+      "pricing": "付费",
+      "categorySlugs": [
+        "productivity",
+        "assistants"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.notion.com/product/ai",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:otter",
+      "slug": "otter",
+      "name": "Otter.ai",
+      "maker": "Otter.ai",
+      "summary": "实时转写会议并生成摘要与后续行动。",
+      "description": "Otter.ai 围绕会议转写、说话人识别、摘要和团队共享构建完整的会前会后工作流。",
+      "websiteUrl": "https://otter.ai/",
+      "domain": "otter.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "productivity",
+        "audio-video"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://otter.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:fireflies",
+      "slug": "fireflies",
+      "name": "Fireflies.ai",
+      "maker": "Fireflies.ai",
+      "summary": "自动加入会议、转写并搜索团队对话。",
+      "description": "Fireflies.ai 提供会议机器人、转写、摘要和对话搜索，并可把行动项同步到团队工具。",
+      "websiteUrl": "https://fireflies.ai/",
+      "domain": "fireflies.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "productivity",
+        "automation"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://fireflies.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:fathom",
+      "slug": "fathom",
+      "name": "Fathom",
+      "maker": "Fathom",
+      "summary": "为视频会议生成录制、摘要和可分享片段。",
+      "description": "Fathom 自动记录 Zoom、Google Meet 与 Teams 会议，突出摘要、关键片段和 CRM 同步。",
+      "websiteUrl": "https://fathom.video/",
+      "domain": "fathom.video",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "productivity",
+        "audio-video"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://fathom.video/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:mem",
+      "slug": "mem",
+      "name": "Mem",
+      "maker": "Mem",
+      "summary": "以 AI 搜索和整理为核心的个人知识工作区。",
+      "description": "Mem 让用户快速记录信息，再通过自然语言检索、关联与生成能力重新利用个人知识。",
+      "websiteUrl": "https://mem.ai/",
+      "domain": "mem.ai",
+      "pricing": "付费",
+      "categorySlugs": [
+        "productivity",
+        "assistants"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://mem.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:napkin-ai",
+      "slug": "napkin-ai",
+      "name": "Napkin AI",
+      "maker": "Napkin AI",
+      "summary": "把文字内容快速转成可编辑的视觉表达。",
+      "description": "Napkin AI 从段落中提炼关系并生成图示，适合为演示、文章和说明材料补充信息视觉。",
+      "websiteUrl": "https://www.napkin.ai/",
+      "domain": "napkin.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.napkin.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:canva-magic-studio",
+      "slug": "canva-magic-studio",
+      "name": "Canva Magic Studio",
+      "maker": "Canva",
+      "summary": "集成在 Canva 中的图像、视频、文案与设计 AI。",
+      "description": "Magic Studio 把生成、改写、抠图和版式能力嵌入 Canva 编辑器，覆盖非专业设计者的常见交付。",
+      "websiteUrl": "https://www.canva.com/magic/",
+      "domain": "canva.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design",
+        "audio-video",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.canva.com/magic/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:beautiful-ai",
+      "slug": "beautiful-ai",
+      "name": "Beautiful.ai",
+      "maker": "Beautiful.ai",
+      "summary": "用智能版式快速创建结构清晰的演示文稿。",
+      "description": "Beautiful.ai 通过自适应模板和内容生成简化幻灯片排版，面向需要稳定品牌交付的团队。",
+      "websiteUrl": "https://www.beautiful.ai/",
+      "domain": "beautiful.ai",
+      "pricing": "免费试用",
+      "categorySlugs": [
+        "design",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.beautiful.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:github-copilot",
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "maker": "GitHub",
+      "summary": "覆盖编辑器、代码托管与终端的 AI 编程助手。",
+      "description": "GitHub Copilot 从代码补全扩展到聊天、代码审查和 Agent 工作流，并连接 GitHub 开发生命周期。",
+      "websiteUrl": "https://github.com/features/copilot",
+      "domain": "github.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://github.com/features/copilot",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:windsurf",
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "maker": "Windsurf",
+      "summary": "围绕代码库上下文和 Agent 协作设计的 AI 编辑器。",
+      "description": "Windsurf 把多文件理解、终端执行与持续任务流放进编辑器，面向希望让 Agent 深度参与开发的团队。",
+      "websiteUrl": "https://windsurf.com/",
+      "domain": "windsurf.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://windsurf.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:replit",
+      "slug": "replit",
+      "name": "Replit",
+      "maker": "Replit",
+      "summary": "在浏览器中从想法生成、运行并发布应用。",
+      "description": "Replit 将在线开发环境、AI Agent、托管和数据库组合起来，适合快速完成从原型到公开应用的闭环。",
+      "websiteUrl": "https://replit.com/",
+      "domain": "replit.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://replit.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:bolt",
+      "slug": "bolt",
+      "name": "Bolt",
+      "maker": "StackBlitz",
+      "summary": "通过对话在浏览器中生成并运行全栈 Web 应用。",
+      "description": "Bolt 基于浏览器开发运行时完成依赖安装、代码生成和预览，缩短从需求描述到可运行原型的距离。",
+      "websiteUrl": "https://bolt.new/",
+      "domain": "bolt.new",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://bolt.new/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:base44",
+      "slug": "base44",
+      "name": "Base44",
+      "maker": "Base44",
+      "summary": "用自然语言构建带数据与权限的业务应用。",
+      "description": "Base44 面向非专业开发者生成完整应用，并把常用后端能力和发布路径纳入同一产品体验。",
+      "websiteUrl": "https://base44.com/",
+      "domain": "base44.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://base44.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:devin",
+      "slug": "devin",
+      "name": "Devin",
+      "maker": "Cognition",
+      "summary": "面向真实软件任务执行的异步 AI 工程师。",
+      "description": "Devin 使用独立开发环境处理代码库任务、测试与交付，强调工程任务委派而非仅在编辑器内补全。",
+      "websiteUrl": "https://devin.ai/",
+      "domain": "devin.ai",
+      "pricing": "付费",
+      "categorySlugs": [
+        "developer",
+        "automation"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://devin.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:coderabbit",
+      "slug": "coderabbit",
+      "name": "CodeRabbit",
+      "maker": "CodeRabbit",
+      "summary": "在拉取请求中提供上下文相关的 AI 代码审查。",
+      "description": "CodeRabbit 连接代码托管平台，自动总结改动、发现问题并参与审查对话，适合团队合并流程。",
+      "websiteUrl": "https://www.coderabbit.ai/",
+      "domain": "coderabbit.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "automation"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.coderabbit.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:cody",
+      "slug": "cody",
+      "name": "Cody",
+      "maker": "Sourcegraph",
+      "summary": "利用代码搜索上下文回答并修改大型代码库。",
+      "description": "Cody 建立在 Sourcegraph 的代码检索能力上，面向跨仓库理解、问答和编辑任务。",
+      "websiteUrl": "https://sourcegraph.com/cody",
+      "domain": "sourcegraph.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://sourcegraph.com/cody",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:tabnine",
+      "slug": "tabnine",
+      "name": "Tabnine",
+      "maker": "Tabnine",
+      "summary": "强调企业控制与代码隐私的 AI 编程助手。",
+      "description": "Tabnine 提供代码补全、聊天和定制模型路径，并突出企业部署、策略和知识产权边界。",
+      "websiteUrl": "https://www.tabnine.com/",
+      "domain": "tabnine.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.tabnine.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:qodo",
+      "slug": "qodo",
+      "name": "Qodo",
+      "maker": "Qodo",
+      "summary": "围绕代码质量、测试和审查构建的开发 Agent 平台。",
+      "description": "Qodo 将代码生成与测试、审查和质量检查结合，面向希望把 AI 纳入团队工程标准的组织。",
+      "websiteUrl": "https://www.qodo.ai/",
+      "domain": "qodo.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "automation"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.qodo.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:jetbrains-ai",
+      "slug": "jetbrains-ai",
+      "name": "JetBrains AI",
+      "maker": "JetBrains",
+      "summary": "集成在 JetBrains IDE 与开发工具中的 AI 助手。",
+      "description": "JetBrains AI 在 IDE 上下文中提供解释、生成、重构和终端辅助，服务现有 JetBrains 开发工作流。",
+      "websiteUrl": "https://www.jetbrains.com/ai/",
+      "domain": "jetbrains.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.jetbrains.com/ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:blackbox-ai",
+      "slug": "blackbox-ai",
+      "name": "BLACKBOX AI",
+      "maker": "BLACKBOX AI",
+      "summary": "提供代码问答、生成与多环境接入的开发助手。",
+      "description": "BLACKBOX AI 覆盖网页、编辑器和移动端，帮助开发者搜索代码、解释实现并生成项目。",
+      "websiteUrl": "https://www.blackbox.ai/",
+      "domain": "blackbox.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "assistants"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.blackbox.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:augment-code",
+      "slug": "augment-code",
+      "name": "Augment Code",
+      "maker": "Augment",
+      "summary": "针对大型代码库和团队上下文的 AI 开发平台。",
+      "description": "Augment Code 侧重长期代码库记忆、跨文件变更和企业工程环境，帮助开发者处理复杂存量系统。",
+      "websiteUrl": "https://www.augmentcode.com/",
+      "domain": "augmentcode.com",
+      "pricing": "免费试用",
+      "categorySlugs": [
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.augmentcode.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:continue",
+      "slug": "continue",
+      "name": "Continue",
+      "maker": "Continue",
+      "summary": "可连接自选模型与上下文的开放式 AI 编程助手。",
+      "description": "Continue 提供编辑器扩展和 Agent 工作流，让团队控制模型、规则与代码库上下文的组合方式。",
+      "websiteUrl": "https://www.continue.dev/",
+      "domain": "continue.dev",
+      "pricing": "免费",
+      "categorySlugs": [
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.continue.dev/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:warp",
+      "slug": "warp",
+      "name": "Warp",
+      "maker": "Warp",
+      "summary": "把 AI Agent 与现代交互带入开发者终端。",
+      "description": "Warp 围绕命令生成、终端协作和 Agent 执行重塑 CLI 工作流，同时保留开发者对实际命令的控制。",
+      "websiteUrl": "https://www.warp.dev/",
+      "domain": "warp.dev",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.warp.dev/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:adobe-firefly",
+      "slug": "adobe-firefly",
+      "name": "Adobe Firefly",
+      "maker": "Adobe",
+      "summary": "连接 Adobe 创作工具的生成式图像与视频平台。",
+      "description": "Firefly 提供图像、矢量和视频生成，并与 Photoshop、Illustrator 等专业创作工作流衔接。",
+      "websiteUrl": "https://firefly.adobe.com/",
+      "domain": "firefly.adobe.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design",
+        "audio-video"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://firefly.adobe.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:ideogram",
+      "slug": "ideogram",
+      "name": "Ideogram",
+      "maker": "Ideogram",
+      "summary": "擅长文字排版与图形设计的 AI 图像产品。",
+      "description": "Ideogram 在海报、标志和带文字画面上建立辨识度，提供生成、编辑和风格参考工作流。",
+      "websiteUrl": "https://ideogram.ai/",
+      "domain": "ideogram.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://ideogram.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:leonardo-ai",
+      "slug": "leonardo-ai",
+      "name": "Leonardo.Ai",
+      "maker": "Leonardo.Ai",
+      "summary": "覆盖图像生成、画布编辑与资产生产的创作平台。",
+      "description": "Leonardo.Ai 面向游戏、营销和设计资产提供模型选择、风格控制和编辑工具。",
+      "websiteUrl": "https://leonardo.ai/",
+      "domain": "leonardo.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://leonardo.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:recraft",
+      "slug": "recraft",
+      "name": "Recraft",
+      "maker": "Recraft",
+      "summary": "面向品牌图形、矢量与设计资产的生成工具。",
+      "description": "Recraft 支持图像和矢量生成、风格一致性与画布编辑，适合需要可继续修改的品牌资产。",
+      "websiteUrl": "https://www.recraft.ai/",
+      "domain": "recraft.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.recraft.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:krea",
+      "slug": "krea",
+      "name": "Krea",
+      "maker": "Krea",
+      "summary": "提供实时生成、增强与视频创作的视觉工作区。",
+      "description": "Krea 强调实时反馈、视觉参考和多模型创作，让设计者在连续画布中探索并细化结果。",
+      "websiteUrl": "https://www.krea.ai/",
+      "domain": "krea.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design",
+        "audio-video"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.krea.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:photoroom",
+      "slug": "photoroom",
+      "name": "Photoroom",
+      "maker": "Photoroom",
+      "summary": "为商品图和营销视觉提供快速 AI 编辑。",
+      "description": "Photoroom 围绕抠图、背景生成和批量商品图处理设计，适合电商卖家与内容团队。",
+      "websiteUrl": "https://www.photoroom.com/",
+      "domain": "photoroom.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.photoroom.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:remove-bg",
+      "slug": "remove-bg",
+      "name": "remove.bg",
+      "maker": "Kaleido",
+      "summary": "一键自动移除图片背景的专用 AI 工具。",
+      "description": "remove.bg 用极窄的产品边界解决抠图任务，并提供网页、桌面与 API 接入方式。",
+      "websiteUrl": "https://www.remove.bg/",
+      "domain": "remove.bg",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "design",
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.remove.bg/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:figma-ai",
+      "slug": "figma-ai",
+      "name": "Figma AI",
+      "maker": "Figma",
+      "summary": "嵌入产品设计与协作流程的生成和整理能力。",
+      "description": "Figma AI 在设计文件与 FigJam 中帮助生成界面、重写内容、查找资产和整理协作信息。",
+      "websiteUrl": "https://www.figma.com/ai/",
+      "domain": "figma.com",
+      "pricing": "付费",
+      "categorySlugs": [
+        "design",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.figma.com/ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:pika",
+      "slug": "pika",
+      "name": "Pika",
+      "maker": "Pika",
+      "summary": "面向短视频创作的生成与特效产品。",
+      "description": "Pika 提供文本和图像生成视频、局部修改与创意特效，强调低门槛和快速分享。",
+      "websiteUrl": "https://pika.art/",
+      "domain": "pika.art",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video",
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://pika.art/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:luma-dream-machine",
+      "slug": "luma-dream-machine",
+      "name": "Dream Machine",
+      "maker": "Luma AI",
+      "summary": "由 Luma AI 提供的高质量图像与视频生成入口。",
+      "description": "Dream Machine 支持文本和图像驱动的视频创作，并通过关键帧与修改能力增强镜头控制。",
+      "websiteUrl": "https://lumalabs.ai/dream-machine",
+      "domain": "lumalabs.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video",
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://lumalabs.ai/dream-machine",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:kling-ai",
+      "slug": "kling-ai",
+      "name": "Kling AI",
+      "maker": "Kuaishou",
+      "summary": "提供文本与图像生成视频的创作平台。",
+      "description": "Kling AI 面向创作者提供视频生成、图像生成与编辑能力，突出运动表现和多镜头创作。",
+      "websiteUrl": "https://klingai.com/",
+      "domain": "klingai.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video",
+        "design"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://klingai.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:heygen",
+      "slug": "heygen",
+      "name": "HeyGen",
+      "maker": "HeyGen",
+      "summary": "用数字人、语音与翻译快速制作商业视频。",
+      "description": "HeyGen 围绕数字人讲解、视频翻译和品牌模板构建工作流，服务营销、培训与销售内容。",
+      "websiteUrl": "https://www.heygen.com/",
+      "domain": "heygen.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.heygen.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:synthesia",
+      "slug": "synthesia",
+      "name": "Synthesia",
+      "maker": "Synthesia",
+      "summary": "面向企业培训与沟通的 AI 数字人视频平台。",
+      "description": "Synthesia 通过数字人、脚本和多语言配音生成标准化视频，适合企业培训和知识传播。",
+      "websiteUrl": "https://www.synthesia.io/",
+      "domain": "synthesia.io",
+      "pricing": "免费试用",
+      "categorySlugs": [
+        "audio-video",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.synthesia.io/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:descript",
+      "slug": "descript",
+      "name": "Descript",
+      "maker": "Descript",
+      "summary": "像编辑文档一样编辑播客和视频。",
+      "description": "Descript 把转写文本作为音视频编辑界面，并加入语音修复、剪辑和内容重组能力。",
+      "websiteUrl": "https://www.descript.com/",
+      "domain": "descript.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.descript.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:opusclip",
+      "slug": "opusclip",
+      "name": "OpusClip",
+      "maker": "OpusClip",
+      "summary": "把长视频自动重组为适合社交平台的短片。",
+      "description": "OpusClip 自动寻找高价值片段、重构画幅并生成字幕，帮助内容团队批量分发短视频。",
+      "websiteUrl": "https://www.opus.pro/",
+      "domain": "opus.pro",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video",
+        "automation"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.opus.pro/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:suno",
+      "slug": "suno",
+      "name": "Suno",
+      "maker": "Suno",
+      "summary": "通过文字提示生成完整歌曲的 AI 音乐产品。",
+      "description": "Suno 让用户从主题、歌词或风格出发生成带人声和编曲的歌曲，并继续延展和重混。",
+      "websiteUrl": "https://suno.com/",
+      "domain": "suno.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://suno.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:udio",
+      "slug": "udio",
+      "name": "Udio",
+      "maker": "Udio",
+      "summary": "支持生成、延展与重混歌曲的 AI 音乐工作室。",
+      "description": "Udio 将文字提示、音频上传和片段编辑组合起来，服务从灵感探索到较完整作品的音乐创作。",
+      "websiteUrl": "https://www.udio.com/",
+      "domain": "udio.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.udio.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:speechify",
+      "slug": "speechify",
+      "name": "Speechify",
+      "maker": "Speechify",
+      "summary": "把文档、网页和书籍转换成自然语音。",
+      "description": "Speechify 提供跨设备文本转语音、语音选择与内容导入，帮助用户以听的方式消费材料。",
+      "websiteUrl": "https://speechify.com/",
+      "domain": "speechify.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "audio-video",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://speechify.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:zapier-ai",
+      "slug": "zapier-ai",
+      "name": "Zapier AI",
+      "maker": "Zapier",
+      "summary": "用自然语言连接应用、数据和自动化流程。",
+      "description": "Zapier AI 将生成式能力、Agent 与大规模应用连接器结合，帮助非开发者构建跨服务工作流。",
+      "websiteUrl": "https://zapier.com/ai",
+      "domain": "zapier.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "automation",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://zapier.com/ai",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:make",
+      "slug": "make",
+      "name": "Make",
+      "maker": "Make",
+      "summary": "用可视化场景连接应用、数据与 AI。",
+      "description": "Make 通过模块、分支和数据映射构建复杂自动化，并把 AI 服务纳入同一可观察流程。",
+      "websiteUrl": "https://www.make.com/",
+      "domain": "make.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "automation"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.make.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:lindy",
+      "slug": "lindy",
+      "name": "Lindy",
+      "maker": "Lindy",
+      "summary": "为业务流程创建可协作的 AI Agent。",
+      "description": "Lindy 让团队通过自然语言配置 Agent、触发器和应用连接，用于邮件、会议、支持与运营任务。",
+      "websiteUrl": "https://www.lindy.ai/",
+      "domain": "lindy.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "automation",
+        "assistants"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.lindy.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:gumloop",
+      "slug": "gumloop",
+      "name": "Gumloop",
+      "maker": "Gumloop",
+      "summary": "用节点和 AI 模块构建可运行的业务自动化。",
+      "description": "Gumloop 面向运营和增长团队提供可视化流程、网页数据步骤与模型调用，强调快速组合。",
+      "websiteUrl": "https://www.gumloop.com/",
+      "domain": "gumloop.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "automation",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.gumloop.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:relay-app",
+      "slug": "relay-app",
+      "name": "Relay.app",
+      "maker": "Relay.app",
+      "summary": "把人工确认与 AI 步骤结合的协作自动化。",
+      "description": "Relay.app 用清晰的流程步骤连接业务应用，并允许人在关键节点审核或补充 AI 生成结果。",
+      "websiteUrl": "https://www.relay.app/",
+      "domain": "relay.app",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "automation",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.relay.app/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:bardeen",
+      "slug": "bardeen",
+      "name": "Bardeen",
+      "maker": "Bardeen",
+      "summary": "在浏览器中自动化研究、销售和数据录入。",
+      "description": "Bardeen 结合浏览器操作、应用连接和 AI Agent，帮助团队减少网页信息搬运与重复操作。",
+      "websiteUrl": "https://www.bardeen.ai/",
+      "domain": "bardeen.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "automation",
+        "productivity"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://www.bardeen.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:relevance-ai",
+      "slug": "relevance-ai",
+      "name": "Relevance AI",
+      "maker": "Relevance AI",
+      "summary": "为团队构建、部署和管理 AI Agent。",
+      "description": "Relevance AI 提供 Agent、工具和多步骤任务编排，面向销售、支持和运营等业务职能。",
+      "websiteUrl": "https://relevanceai.com/",
+      "domain": "relevanceai.com",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "automation",
+        "developer"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://relevanceai.com/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "id": "earlylore:dify",
+      "slug": "dify",
+      "name": "Dify",
+      "maker": "Dify",
+      "summary": "构建、测试和运营生成式 AI 应用的平台。",
+      "description": "Dify 将提示词、知识库、工作流、模型接入和应用发布放在同一界面，服务开发者与产品团队。",
+      "websiteUrl": "https://dify.ai/",
+      "domain": "dify.ai",
+      "pricing": "免费增值",
+      "categorySlugs": [
+        "developer",
+        "automation"
+      ],
+      "addedAt": "2026-07-28",
+      "verifiedAt": "2026-07-28",
+      "observedAt": "2026-07-28",
+      "sourceRecords": [
+        {
+          "kind": "official_website",
+          "url": "https://dify.ai/",
+          "observedAt": "2026-07-28"
+        }
+      ]
+    }
+  ]
+}
